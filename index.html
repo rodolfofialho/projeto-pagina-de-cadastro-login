@@ -10,19 +10,58 @@
 <body>
 
     <div class="container">
-        <div class="conteudo1">
-            <div class="first-column">
-                <h1 class="title">Bem vindo(a)!</h1>
+        <div class="content first-content">   <!--Inicio-conteudo-->
+            <div class="first-column"> <!--Conteudo-esquerdo-->
+                <h1 class="title title-welcome ">Bem vindo(a)!</h1>
                 <p class="description"> Para se manter conectado conosco </p>
-                <p class="descriptioin">por favor faça o login com suas informações pessoais</p>
+                <p class="description">por favor faça o login com suas <br> informações pessoais</p>
+                <button class="btn btn-primary">Entrar</button>
             </div>
-            <div class="second-column">
 
+            <div class="second-column"> <!--Conteudo-direito-->
+                <h2 class="title">Criar Conta</h2>
+                <div class="social-media">
+                    <ul class="list-social-media">
+                        <li><a href="#">facebook</a></li>
+                        <li><a href="#">Google</a></li>
+                        <li><a href="#">linkedin</a></li>
+                    </ul>
+                </div>
+                <p class="description">ou use seu e-mail para cadastro:</p>
+                <from class="form">
+                    <input type="txt" name="nome" placeholder="Nome">
+                    <input type="email" name="email" placeholder="E-mail">
+                    <input type="password" name="password" placeholder="Senha">
+                    <button class="btn">Inscrever-se</button>
+                </from>
+            </div> 
+        </div>  <!--Fim-conteudo-->
+        <div class="content second-content">  <!--Inico-conteudo-2-->
+            <div class="first-column"> <!--Conteudo-esquerdo-->
+                <h1 class="title">Olá amigo(a)!</h1>
+                <p class="description"> Insira seus dados pessoais</p>
+                <p class="descriptioin">e comece sua jornada conosco</p>
+                <button class="btn">Inscrever-se</button>
             </div>
-        </div>
-        <div class="conteudo2">
 
-        </div>
+            <div class="second-column"> <!--Conteudo-direito-->
+                <h2 class="title">Entrar como    desenvolvedor</h2>
+                <div class="social-media">
+                    <ul>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                    </ul>
+                </div>
+                <p class="description">ou use sua conta de e-mail:</p>
+                <from class="form">
+                    <input type="email" name="email" placeholder="E-mail">
+                    <input type="password" name="password" placeholder="Senha">
+                    <a href="#">Esqueceu sua senha</a>
+                    <button class="btn">Entrar</button>
+                </from>
+            </div> 
+        </div> <!--Fim-conteudo-2-->
     </div>
 
     <script src="./js/script.js"></script>
