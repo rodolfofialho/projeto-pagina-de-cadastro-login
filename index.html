@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 </head>
 <body>
 
@@ -13,21 +14,33 @@
         <div class="content first-content">   <!--Inicio-conteudo-->
             <div class="first-column"> <!--Conteudo-esquerdo-->
                 <h1 class="title title-welcome ">Bem vindo(a)!</h1>
-                <p class="description"> Para se manter conectado conosco </p>
-                <p class="description">por favor faça o login com suas <br> informações pessoais</p>
+                <p class="description description-primary"> Para se manter conectado conosco </p>
+                <p class="description description-primary">por favor faça o login com suas <br> informações pessoais</p>
                 <button class="btn btn-primary">Entrar</button>
             </div>
 
             <div class="second-column"> <!--Conteudo-direito-->
-                <h2 class="title">Criar Conta</h2>
+                <h2 class="title title-second">Criar Conta</h2>
                 <div class="social-media">
                     <ul class="list-social-media">
-                        <li><a href="#">facebook</a></li>
-                        <li><a href="#">Google</a></li>
-                        <li><a href="#">linkedin</a></li>
+                        <li class="item-social-media">
+                            <a href="#">
+                                <img src="/imagem/icon-facebook1.png" class="icon">
+                            </a>
+                        </li>
+                        <li class="item-social-media">
+                            <a href="#">
+                                <img src="/imagem/icon-gmail.png" class="icon">
+                            </a>
+                        </li>
+                        <li class="item-social-media">
+                            <a href="#">
+                                <img src="/imagem/twitter.png" class="icon">
+                            </a>
+                        </li>
                     </ul>
                 </div>
-                <p class="description">ou use seu e-mail para cadastro:</p>
+                <p class="description description-second">ou use seu e-mail para cadastro:</p>
                 <from class="form">
                     <input type="txt" name="nome" placeholder="Nome">
                     <input type="email" name="email" placeholder="E-mail">
@@ -58,7 +71,7 @@
                     <input type="email" name="email" placeholder="E-mail">
                     <input type="password" name="password" placeholder="Senha">
                     <a href="#">Esqueceu sua senha</a>
-                    <button class="btn">Entrar</button>
+                    <button class="btn btn-second">Entrar</button>
                 </from>
             </div> 
         </div> <!--Fim-conteudo-2-->
